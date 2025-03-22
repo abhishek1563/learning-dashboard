@@ -1,4 +1,9 @@
+import wip from "../assets/wip.png"
+
 const Home = () => {
-    return <h4>Hello</h4>
+    return (<div>
+        <h4>Working....</h4>
+        <img src={wip} />
+    </div>)
 }
 export default Home;
